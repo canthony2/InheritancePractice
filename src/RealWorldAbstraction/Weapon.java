@@ -9,6 +9,27 @@ package RealWorldAbstraction;
  *
  * @author knyghtspup
  */
-public class Weapon {
+public abstract class Weapon {
+    
+    private String type;
+    private boolean usesAmmunition;
+    
+    public abstract double getLength();
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
+
+    public boolean isUsesAmmunition() {
+        return usesAmmunition;
+    }
+
+    public void setUsesAmmunition(boolean usesAmmunition) {
+        this.usesAmmunition = usesAmmunition;
+    }
     
 }
