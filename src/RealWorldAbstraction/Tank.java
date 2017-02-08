@@ -9,7 +9,7 @@ package RealWorldAbstraction;
  *
  * @author knyghtspup
  */
-public class Tank extends Armored{
+public class Tank extends Armor{
     
     private String name;
     private String origin;

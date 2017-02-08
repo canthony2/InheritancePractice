@@ -9,7 +9,7 @@ package RealWorldAbstraction;
  *
  * @author knyghtspup
  */
-public class Armored extends Vehicle{
+public class Armor extends Vehicle{
     
     private double armorThickness;
     private String type; //tank, artillery, Infantry Fighting Vehicle, Armored Personel Carrier, etc...
