@@ -9,6 +9,6 @@ package RealWorldAbstraction;
  *
  * @author knyghtspup
  */
-public class YamatoClassBattleship {
+public class YamatoClass {
     
 }

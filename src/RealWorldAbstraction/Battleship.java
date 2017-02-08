@@ -9,6 +9,6 @@ package RealWorldAbstraction;
  *
  * @author knyghtspup
  */
-public class Abrams {
+public class Battleship {
     
 }

@@ -9,6 +9,6 @@ package RealWorldAbstraction;
  *
  * @author knyghtspup
  */
-public class Broadsword {
+public class Sword {
     
 }

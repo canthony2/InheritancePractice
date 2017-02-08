@@ -10,6 +10,26 @@ package ImaginaryAbstraction;
  * @author knyghtspup
  */
 public abstract class Creature {
+    //information about the creature
+    private String kind;
+    private String name;
     
+    public abstract double getHeight();
+
+    public String getKind() {
+        return kind;
+    }
+
+    public void setKind(String kind) {
+        this.kind = kind;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 
 }

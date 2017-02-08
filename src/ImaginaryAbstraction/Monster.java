@@ -9,6 +9,11 @@ package ImaginaryAbstraction;
  *
  * @author knyghtspup
  */
-public class USS_Enterprise {
+public class Monster extends Creature{
+
+    @Override
+    public double getHeight() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
 }

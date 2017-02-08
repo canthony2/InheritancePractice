@@ -9,6 +9,6 @@ package ImaginaryAbstraction;
  *
  * @author knyghtspup
  */
-public class Kaiju extends Creature{
+public class Kaiju extends Monster{
     
 }

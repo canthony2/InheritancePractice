@@ -9,6 +9,6 @@ package ImaginaryAbstraction;
  *
  * @author knyghtspup
  */
-public class Godzilla extends Kaiju{
+public class BattleMachine {
     
 }
