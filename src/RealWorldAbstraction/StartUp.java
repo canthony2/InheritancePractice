@@ -3,13 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ImaginaryAbstraction;
+package RealWorldAbstraction;
 
 /**
  *
  * @author knyghtspup
  */
-public abstract class Creature {
-    
-
+public class StartUp {
+    public static void main(String[] args) {
+        // TODO code application logic here
+        
+    }
 }
