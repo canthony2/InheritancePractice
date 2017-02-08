@@ -9,6 +9,36 @@ package RealWorldAbstraction;
  *
  * @author knyghtspup
  */
-public class Ship {
+public abstract class Ship {
+    
+    private String kind; //Military or Civilian
+    private int nauticalSpeed;
+    private double feetLength;
+    
+    public abstract double getMeterLength();
+
+    public String getKind() {
+        return kind;
+    }
+
+    public void setKind(String kind) {
+        this.kind = kind;
+    }
+
+    public double getFeetLength() {
+        return feetLength;
+    }
+
+    public void setFeetLength(double feetLength) {
+        this.feetLength = feetLength;
+    }
+
+    public int getNauticalSpeed() {
+        return nauticalSpeed;
+    }
+
+    public void setNauticalSpeed(int nauticalSpeed) {
+        this.nauticalSpeed = nauticalSpeed;
+    }
     
 }

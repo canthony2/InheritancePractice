@@ -15,7 +15,7 @@ public class Sword extends Blade{
     private boolean doubleEdged;
     
     @Override
-    public double getLength() {
+    public double getMeterLength() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 

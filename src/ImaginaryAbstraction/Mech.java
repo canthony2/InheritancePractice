@@ -13,7 +13,7 @@ public abstract class Mech {
     private String type;
     private String name;
     
-    public abstract double getHeight();
+    public abstract double getMeterHeight();
 
     public String getType() {
         return type;

@@ -13,8 +13,9 @@ public abstract class Weapon {
     
     private String type;
     private boolean usesAmmunition;
+    private double feetLength;
     
-    public abstract double getLength();
+    public abstract double getMeterLength();
 
     public String getType() {
         return type;
@@ -30,6 +31,14 @@ public abstract class Weapon {
 
     public void setUsesAmmunition(boolean usesAmmunition) {
         this.usesAmmunition = usesAmmunition;
+    }
+
+    public double getFeetLength() {
+        return feetLength;
+    }
+
+    public void setFeetLength(double feetLength) {
+        this.feetLength = feetLength;
     }
     
 }

@@ -15,7 +15,7 @@ public class BattleMachine extends Mech{
     private boolean Shields;
     
     @Override
-    public double getHeight() {
+    public double getMeterHeight() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 

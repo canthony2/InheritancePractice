@@ -15,7 +15,7 @@ public class Blade extends Weapon{
     private String origin;
     
     @Override
-    public double getLength() {
+    public double getMeterLength() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 

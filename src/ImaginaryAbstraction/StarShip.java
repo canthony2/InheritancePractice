@@ -15,7 +15,7 @@ public class StarShip extends StarTrek{
     private boolean dedicatedWarship;
 
     @Override
-    public double getLength() {
+    public double getMeterLength() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 

@@ -13,8 +13,9 @@ public abstract class Creature {
     //information about the creature
     private String kind;
     private String name;
+    private double feetHeight;
     
-    public abstract double getHeight();
+    public abstract double getMeterHeight();
 
     public String getKind() {
         return kind;
@@ -32,4 +33,12 @@ public abstract class Creature {
         this.name = name;
     }
 
+    public double getFeetHeight() {
+        return feetHeight;
+    }
+
+    public void setFeetHeight(double feetHeight) {
+        this.feetHeight = feetHeight;
+    }
+    
 }

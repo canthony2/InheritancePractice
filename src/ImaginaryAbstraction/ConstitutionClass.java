@@ -15,7 +15,7 @@ public class ConstitutionClass extends StarShip{
     private boolean madeFamousByEnterprise;
     
     @Override
-    public double getLength() {
+    public double getMeterLength() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 

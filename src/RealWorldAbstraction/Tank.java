@@ -9,6 +9,30 @@ package RealWorldAbstraction;
  *
  * @author knyghtspup
  */
-public class Tank {
+public class Tank extends Armored{
+    
+    private String name;
+    private String origin;
+    
+    @Override
+    public double getMeterLength() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getOrigin() {
+        return origin;
+    }
+
+    public void setOrigin(String origin) {
+        this.origin = origin;
+    }
     
 }

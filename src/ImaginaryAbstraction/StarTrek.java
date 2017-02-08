@@ -13,8 +13,9 @@ public abstract class StarTrek {
     
     private String species;
     private String faction;
+    private double feetLength;
     
-    public abstract double getLength();
+    public abstract double getMeterLength();
 
     public String getSpecies() {
         return species;
@@ -30,6 +31,14 @@ public abstract class StarTrek {
 
     public void setFaction(String faction) {
         this.faction = faction;
+    }
+
+    public double getFeetLength() {
+        return feetLength;
+    }
+
+    public void setFeetLength(double feetLength) {
+        this.feetLength = feetLength;
     }
     
 }
