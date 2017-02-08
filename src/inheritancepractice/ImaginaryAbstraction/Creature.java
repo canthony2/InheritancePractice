@@ -10,5 +10,9 @@ package inheritancepractice.ImaginaryAbstraction;
  * @author knyghtspup
  */
 public class Creature {
-    
+    public static void main(String[] args) {
+        // TODO code application logic here
+        
+    }
+
 }

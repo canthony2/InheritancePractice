@@ -9,6 +9,6 @@ package inheritancepractice.ImaginaryAbstraction;
  *
  * @author knyghtspup
  */
-public class Kaiju {
+public class Kaiju extends Creature{
     
 }
