@@ -9,6 +9,30 @@ package ImaginaryAbstraction;
  *
  * @author knyghtspup
  */
-public class Jaeger {
+public class Jaeger extends BattleMachine{
+    
+    private String generationMark;
+    private String powerSource;
+    
+    @Override
+    public double getHeight() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public String getGenerationMark() {
+        return generationMark;
+    }
+
+    public void setGenerationMark(String generationMark) {
+        this.generationMark = generationMark;
+    }
+
+    public String getPowerSource() {
+        return powerSource;
+    }
+
+    public void setPowerSource(String powerSource) {
+        this.powerSource = powerSource;
+    }
     
 }
