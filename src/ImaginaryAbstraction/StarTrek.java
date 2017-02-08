@@ -9,6 +9,27 @@ package ImaginaryAbstraction;
  *
  * @author knyghtspup
  */
-public class StarTrek {
+public abstract class StarTrek {
+    
+    private String species;
+    private String faction;
+    
+    public abstract double getLength();
+
+    public String getSpecies() {
+        return species;
+    }
+
+    public void setSpecies(String species) {
+        this.species = species;
+    }
+
+    public String getFaction() {
+        return faction;
+    }
+
+    public void setFaction(String faction) {
+        this.faction = faction;
+    }
     
 }
