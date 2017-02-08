@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package inheritancepractice.ImaginaryAbstraction;
+package ImaginaryAbstraction;
 
 /**
  *
  * @author knyghtspup
  */
-public class Jaeger {
+public class ConstitutionClass {
     
 }
