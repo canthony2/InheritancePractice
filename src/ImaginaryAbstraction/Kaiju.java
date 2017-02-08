@@ -11,4 +11,28 @@ package ImaginaryAbstraction;
  */
 public class Kaiju extends Monster{
     
+    private boolean beamAttack;
+    private boolean prehistoricLook;
+    
+    @Override
+    public double getHeight() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public boolean isBeamAttack() {
+        return beamAttack;
+    }
+
+    public void setBeamAttack(boolean beamAttack) {
+        this.beamAttack = beamAttack;
+    }
+
+    public boolean isPrehistoricLook() {
+        return prehistoricLook;
+    }
+
+    public void setPrehistoricLook(boolean prehistoricLook) {
+        this.prehistoricLook = prehistoricLook;
+    }
+    
 }
